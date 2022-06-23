@@ -1,0 +1,15 @@
+input[type=text] {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+    font-size: $font-size-medium;
+}
+
+select {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+    font-size: $font-size-medium;
+}

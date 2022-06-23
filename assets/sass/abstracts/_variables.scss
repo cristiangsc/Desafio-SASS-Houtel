@@ -1,0 +1,33 @@
+/*colors*/
+
+$white:#FFF;
+$platinum:#E8E8E8;
+$gray:#BABABA;
+$carmine-pink:#E94F37;
+$salmon: #EF7F6d;
+$spanish-pink:#F7BFB6;
+$black-olive:#393E41;
+$granite-gray:#5D6163;
+$old-silver:#818486;
+$verdigris:#44BBA4;
+$medium-aquamarine:#66C7B4;
+$perl-aqua:#88D3C5;
+
+/*breakpoints */
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+//font size setup
+$font-size-xxx-extra-large: 160px;
+$font-size-xxx-large: 100px;
+$font-size-xx-large: 30px;
+$font-size-x-large: 20px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-size-x-small: 12px;
+//
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap');

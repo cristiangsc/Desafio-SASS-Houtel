@@ -1,0 +1,30 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: $font-size-large;
+    font-weight: 600;
+    &-lg {
+        padding: 18px 4.5rem;
+    }
+    &-md {
+        padding: 20px 3rem;
+    }
+    &-sm {
+        padding: 15px 1rem;
+    }
+    &-positive {
+        @include button-color($verdigris);
+    }
+    &-default {
+        @include button-color($carmine-pink);
+    }
+}
+
+.my-4 {
+    margin: 50px;
+}

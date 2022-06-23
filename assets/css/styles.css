@@ -1,0 +1,133 @@
+/*colors*/
+/*breakpoints */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap");
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+  justify-content: flex-start;
+  background-image: url(../img/logo.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 130px;
+  margin-left: 45px;
+  margin-top: 25px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 160px;
+  font-weight: 700;
+}
+.titulo p {
+  margin: 50px;
+}
+
+.buttons {
+  margin-top: 45px;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 70%;
+  padding: 25px;
+  background-color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px auto;
+  border: 1px solid #BABABA;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px #5D6163;
+}
+.forms-item {
+  padding-bottom: 7px;
+}
+.forms select,
+.forms input {
+  margin-top: 7px;
+}
+
+.boton {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.button-lg {
+  padding: 18px 4.5rem;
+}
+.button-md {
+  padding: 20px 3rem;
+}
+.button-sm {
+  padding: 15px 1rem;
+}
+.button-positive {
+  background-color: #44BBA4;
+}
+.button-default {
+  background-color: #E94F37;
+}
+
+.my-4 {
+  margin: 50px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #BABABA;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #BABABA;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
